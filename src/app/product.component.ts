@@ -9,7 +9,7 @@ import {Component} from '@angular/core';
     <h2 *ngSwitchCase="'laptop'"><app-laptop></app-laptop></h2>
     <h2 *ngSwitchCase="'mobile'"><app-mobile></app-mobile></h2>
     <h2 *ngSwitchCase="'TV'"><app-tv></app-tv></h2>
-    <h2 *ngSwitchDefault>not found anything</h2>
+    <h2 *ngSwitchDefault>not a found anything</h2>
     </div>
     `
 })

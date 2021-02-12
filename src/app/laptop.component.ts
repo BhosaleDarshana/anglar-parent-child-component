@@ -4,9 +4,9 @@ import {Component} from '@angular/core';
     selector:`app-laptop`,
     template:`<h2> these is laptop section</h2>
     <div class="container">
-    <div class="row" *ngFor="let lap of laptop">
-    <h3>{{lap.name}}</h3>
-    <img src="{{lap.imgurl}}">
+    <div class="row" *ngFor="let laps of laptop">
+    <h3>{{laps.name}}</h3>
+    <img src="{{laps.imgurl}}">
     </div>
     </div>`
 })

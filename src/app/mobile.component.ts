@@ -4,9 +4,9 @@ import {Component} from '@angular/core';
     selector:`app-mobile`,
     template:`<h2> these is mobile section</h2>
     <div class="container">
-    <div class="row" *ngFor="let mob of mobile">
-    <h3>{{mob.name}}</h3>
-    <img src="{{mob.imgurl}}">
+    <div class="row" *ngFor="let mobs of mobile">
+    <h3>{{mobs.name}}</h3>
+    <img src="{{mobs.imgurl}}">
     </div>
     </div>`
 })

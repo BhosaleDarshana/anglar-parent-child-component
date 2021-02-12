@@ -4,9 +4,9 @@ import {Component} from '@angular/core';
     selector:`app-tv`,
     template:`<h2> these is tv section</h2>
     <div class="container">
-    <div class="row" *ngFor="let tv of tv">
-    <h3>{{tv.name}}</h3>
-    <img src="{{tv.imgurl}}">
+    <div class="row" *ngFor="let tvs of tv">
+    <h3>{{tvs.name}}</h3>
+    <img src="{{tvs.imgurl}}">
     </div>
     </div>`
 })
